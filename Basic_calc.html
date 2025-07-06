@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel ="stylesheet" href="Basic_calc.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="header">
+            <h1 class="title">Basic Calculator</h1>
+            <p class="subtitle">HTML, CSS & JavaScript Implementation</p>
+        </div>
+        
+        <div class="display">
+            <div class="memory-indicator" id="memory-indicator">M: 0</div>
+            <div class="expression" id="expression"></div>
+            <div class="result" id="result">0</div>
+        </div>
+        
+        <div class="keypad">
+            <button class="function memory-btn" onclick="handleMemory('mc')">MC</button>
+            <button class="function memory-btn" onclick="handleMemory('mr')">MR</button>
+            <button class="function memory-btn" onclick="handleMemory('m+')">M+</button>
+            <button class="function memory-btn" onclick="handleMemory('m-')">M-</button>
+            
+            <button class="function" onclick="clearDisplay()">C</button>
+            <button class="function" onclick="backspace()">⌫</button>
+            <button class="function" onclick="setOperation('%')">%</button>
+            <button class="operator" onclick="setOperation('/')">÷</button>
+            
+            <button class="number" onclick="appendValue('7')">7</button>
+            <button class="number" onclick="appendValue('8')">8</button>
+            <button class="number" onclick="appendValue('9')">9</button>
+            <button class="operator" onclick="setOperation('*')">×</button>
+            
+            <button class="number" onclick="appendValue('4')">4</button>
+            <button class="number" onclick="appendValue('5')">5</button>
+            <button class="number" onclick="appendValue('6')">6</button>
+            <button class="operator" onclick="setOperation('-')">−</button>
+            
+            <button class="number" onclick="appendValue('1')">1</button>
+            <button class="number" onclick="appendValue('2')">2</button>
+            <button class="number" onclick="appendValue('3')">3</button>
+            <button class="operator" onclick="setOperation('+')">+</button>
+            
+            <button class="number" onclick="appendValue('0')">0</button>
+            <button class="number" onclick="appendValue('.')">.</button>
+            <button class="function" onclick="calculateSquareRoot()">√</button>
+            <button class="equals" onclick="calculateResult()">=</button>
+        </div>
+        
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <ul>
+                <li>Basic operations: +, -, ×, ÷</li>
+                <li>Memory functions: <span class="highlight">MC</span> (clear), <span class="highlight">MR</span> (recall), 
+                    <span class="highlight">M+</span> (add), <span class="highlight">M-</span> (subtract)</li>
+                <li>Special functions: <span class="highlight">√</span> (square root), <span class="highlight">%</span> (percentage)</li>
+                <li>Keyboard support: Type numbers and operators directly</li>
+            </ul>
+            <p>Press <span class="highlight">C</span> to clear, <span class="highlight">⌫</span> for backspace</p>
+        </div>
+        
+        <footer>Basic Calculator v1.0 | Created by Utkarsh Verma </footer>
+    </div>
+    <script src="Basic_calc.js"></script>
+    </body>
+</html>
