@@ -6,5 +6,4 @@
 📫 You can reach me on my Linked in https://www.linkedin.com/in/utkarsh-verma-863389295/
 📫 You can reach me on my Github https://github.com/Utkarsh-3108
 😄 Pronouns: He/ Him
-# I have created the Basic Calculator for my Web Development @Unified Mentor internship.
-# In this project i have use the various technologies including html,css and javascript for developing this project.
+# I have created the Basic Calculator for my Web Development @Unified Mentor internship.In this project i have use the various technologies including html,css and javascript for developing this project.
