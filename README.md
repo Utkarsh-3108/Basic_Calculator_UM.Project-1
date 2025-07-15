@@ -1,17 +1,56 @@
-👋 Hi, I’m @Utkarsh_Verma
+Basic Calculator
+A simple, responsive calculator built with HTML, CSS, and JavaScript
 
-👀 I’m interested in Tech and IT roles
+Features ✨
+➕➖✖️➗ Basic arithmetic operations (+, -, ×, ÷)
 
-🌱 I’m currently learning Java and DSA.
+🔄 Clear and backspace functionality
 
-💞️ I’m looking to collaborate with Tech organizations and internship training programs.
+📱 Responsive design (works on mobile & desktop)
 
-🤹 I’m am gaining the skills in Full Stack Java development.
+🎨 Clean UI with CSS animations
 
-📫 You can reach me on my Linked in https://www.linkedin.com/in/utkarsh-verma-863389295/
+⚡ Real-time calculation display
 
-📫 You can reach me on my Github https://github.com/Utkarsh-3108
+Tech Stack 🛠️
+Frontend: HTML5, CSS3, JavaScript (ES6)
 
-😄 Pronouns: He/ Him
+Tools: Git, GitHub
 
-""I have created the Basic Calculator for my Web Development @Unified Mentor internship. In this project i have use the various technologies including html,css and javascript for developing this project.""
+Live Demo 🌐
+Try it here: GitHub Pages Link
+
+Installation ⚙️
+Clone the repo:
+
+bash
+git clone https://github.com/yourusername/basic-calculator.git  
+Open index.html in your browser.
+
+Code Highlights 💻
+javascript
+// Example: Key calculation logic  
+function calculate(a, operator, b) {  
+  switch (operator) {  
+    case '+': return a + b;  
+    case '-': return a - b;  
+    case '×': return a * b;  
+    case '÷': return a / b;  
+  }  
+}  
+What I Learned 📚
+DOM manipulation with querySelector and addEventListener
+
+CSS Flexbox/Grid for responsive layouts
+
+Error handling for edge cases (e.g., division by zero)
+
+Future Improvements 🔮
+Add scientific calculator functions (√, %, etc.)
+
+Support keyboard input
+
+Dark/light mode toggle
+
+License 📜
+MIT © [Utkarsh Verma]
