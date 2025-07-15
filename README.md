@@ -35,13 +35,13 @@ function calculate(a, operator, b) {
     case '+': return a + b;  
     case '-': return a - b;  
     case '×': return a * b;  
-    case '÷': return a / b;  
+    case '÷': return a / b;} 
   }  
-}  
+  
 What I Learned 📚
-DOM manipulation with querySelector and addEventListener
+#DOM manipulation with querySelector and addEventListener
 
-CSS Flexbox/Grid for responsive layouts
+#CSS Flexbox/Grid for responsive layouts
 
 Error handling for edge cases (e.g., division by zero)
 
