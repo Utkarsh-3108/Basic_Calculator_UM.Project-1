@@ -2,24 +2,26 @@
 
 A simple, responsive calculator built with HTML, CSS, and JavaScript
 
-https://./screenshot.png <!-- Add a screenshot -->
+## Screenshot
+
+![Screenshot_1-8-2025_19843_127 0 0 1](https://github.com/user-attachments/assets/162e56b7-04c7-47ce-9475-c6e1e2729ec8)
 
 
 ## Features ✨
-➕➖✖️➗ Basic arithmetic operations (+, -, ×, ÷)
+• ➕➖✖️➗ Basic arithmetic operations (+, -, ×, ÷)
 
-🔄 Clear and backspace functionality
+• 🔄 Clear and backspace functionality
 
-📱 Responsive design (works on mobile & desktop)
+• 📱 Responsive design (works on mobile & desktop)
 
-🎨 Clean UI with CSS animations
+• 🎨 Clean UI with CSS animations
 
-⚡ Real-time calculation display
+• ⚡ Real-time calculation display
 
 ## Tech Stack 🛠️
-Frontend: HTML5, CSS3, JavaScript
+• Frontend: HTML5, CSS3, JavaScript
 
-Tools: Git, GitHub
+• Tools: Git, GitHub
 
 ## Installation ⚙️
 1. Clone the repository:
@@ -46,16 +48,16 @@ function calculate(a, operator, b) {
 
 ## What I Learned 📚
 
-DOM manipulation with querySelector and addEventListener
+• DOM manipulation with querySelector and addEventListener
 
-CSS Flexbox/Grid for responsive layouts
+• CSS Flexbox/Grid for responsive layouts
 
-Error handling for edge cases (e.g., division by zero)
+• Error handling for edge cases (e.g., division by zero)
 
 ## Future Improvements 🔮
 
-Add scientific calculator functions (Π,e,φ,τ,log,sin,cos,tan,ln etc.)
+• Add scientific calculator functions (Π, e, φ, τ, log, sin, cos, tan, ln etc.)
 
-Support keyboard input
+• Support keyboard input
 
-Dark/light mode toggle
+• Dark/light mode toggle
