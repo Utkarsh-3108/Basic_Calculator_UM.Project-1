@@ -1,9 +1,11 @@
-Basic Calculator
+# Basic Calculator
+
 A simple, responsive calculator built with HTML, CSS, and JavaScript
 
 https://./screenshot.png <!-- Add a screenshot -->
 
-Features ✨
+
+## Features ✨
 ➕➖✖️➗ Basic arithmetic operations (+, -, ×, ÷)
 
 🔄 Clear and backspace functionality
@@ -14,22 +16,22 @@ Features ✨
 
 ⚡ Real-time calculation display
 
-Tech Stack 🛠️
-Frontend: HTML5, CSS3, JavaScript (ES6)
+## Tech Stack 🛠️
+Frontend: HTML5, CSS3, JavaScript
 
 Tools: Git, GitHub
 
-Live Demo 🌐
-Try it here: GitHub Pages Link
+## Installation ⚙️
+1. Clone the repository:
 
-Installation ⚙️
-Clone the repo:
+```bash
+git clone https://github.com/Utkarsh-3108/Basic_Calculator_UM.Project-1.git
+```
 
-bash
-git clone https://github.com/yourusername/basic-calculator.git  
-Open index.html in your browser.
+2. Open ```index.html``` in your browser.
 
-Code Highlights 💻
+## Code Highlights 💻
+``` bash
 javascript
 // Example: Key calculation logic  
 function calculate(a, operator, b) {  
@@ -39,20 +41,21 @@ function calculate(a, operator, b) {
     case '×': return a * b;  
     case '÷': return a / b;  
   }  
-}  
-What I Learned 📚
+}
+```
+
+## What I Learned 📚
+
 DOM manipulation with querySelector and addEventListener
 
 CSS Flexbox/Grid for responsive layouts
 
 Error handling for edge cases (e.g., division by zero)
 
-Future Improvements 🔮
-Add scientific calculator functions (√, %, etc.)
+## Future Improvements 🔮
+
+Add scientific calculator functions (Π,e,φ,τ,log,sin,cos,tan,ln etc.)
 
 Support keyboard input
 
 Dark/light mode toggle
-
-License 📜
-MIT © [Your Name]
