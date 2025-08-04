@@ -48,7 +48,7 @@ function calculate(a, operator, b) {
 
 ## What I Learned 📚
 
-• DOM manipulation with querySelector and addEventListener
+• DOM manipulation with querySelector and add EventListener
 
 • CSS Flexbox/Grid for responsive layouts
 
